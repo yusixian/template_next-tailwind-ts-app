@@ -11,7 +11,7 @@ export function Header() {
         Logo
       </div>
       <div className="flex-grow cursor-pointer text-center text-3xl" onClick={() => router.push('/')}>
-        Hello World
+        Floating UI 使用演示
       </div>
       <div className="cursor-pointer" onClick={toggleTheme}>
         切换日夜模式
