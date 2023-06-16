@@ -20,13 +20,13 @@ export default function Home() {
           title="Popover Demo"
           clickable
           onClick={() => router.push('/popover')}
-          desc="一个Popover的Demo，见 /pages/popover/index.tsx"
+          desc="一个 Popover 的 demo，见 /pages/popover/index.tsx"
         />
         <Card
           title="Dialog Demo"
           clickable
           onClick={() => router.push('/dialog')}
-          desc="施工中：一个 Dialog 的Demo，见 /pages/dialog/index.tsx"
+          desc="一个 Dialog 的 demo，见 /pages/dialog/index.tsx"
         />
       </main>
     </>
