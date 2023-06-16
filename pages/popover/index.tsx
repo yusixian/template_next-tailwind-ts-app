@@ -1,13 +1,17 @@
+import Button from '@/components/button';
 import Card from '@/components/card';
 import Popover from '@/components/popover';
 
-function PopoverContent({ close }) {
+type PopoverComponentProps = {
+  close: () => void;
+};
+function PopoverContent({ close }: PopoverComponentProps) {
   return (
     <div className="flex w-44 items-center justify-between">
       <p>Hello~</p>
-      <div className="cursor-pointer bg-red-400 p-2" onClick={close}>
-        Close!
-      </div>
+      <Button type="primary" onClick={close}>
+        Close
+      </Button>
     </div>
   );
 }

@@ -15,7 +15,8 @@ module.exports = {
         '2xl': '1366px',
       },
       colors: {
-        'cos-primary': '#1EDB8C',
+        'cos-primary': '#3b82f6',
+        'cos-danger': '#ef4444', // red-500
       },
       backgroundImage: {
         'cos-gradient': 'linear-gradient( 135deg, #ee9ca7 10%, #ffdde1 100%)',

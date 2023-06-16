@@ -57,7 +57,7 @@ const Popover = ({ disabled, children, render, placement, open: passedOpen, onOp
               top: y ?? 0,
               left: x ?? 0,
             }}
-            className="z-10 bg-yellow-400 p-2 outline-none"
+            className="z-10 bg-gray-400 p-2 outline-none"
             aria-labelledby={headingId}
             {...getFloatingProps()}
           >
